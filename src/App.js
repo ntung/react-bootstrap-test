@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {Button, Col, Container, Row} from "react-bootstrap";
+import ColorModeComp from "./shared-commponents/ColorModeTest";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           </Row>
         </Container>
         <AutoLayoutExampleWithReactBootstrap/>
+
+        <ColorModeComp/>
       </div>
   );
 }
