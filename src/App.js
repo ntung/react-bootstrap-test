@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {Button, Col, Container, Row} from "react-bootstrap";
 
 function App() {
   return (
@@ -18,6 +19,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <Container fluid>
+        <Row className="jumbotron">
+          <Col xs={12} sm={4}>
+          <Button variant="primary">Click here</Button>
+          </Col>
+          <Col xs={12} sm={4}><h1>Next</h1></Col>
+          <Col xs={12} sm={4}>Next</Col>
+        </Row>
+      </Container>
     </div>
   );
 }
