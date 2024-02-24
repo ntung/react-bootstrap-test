@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from "./ExampleCarouselImage";
+import 'font-awesome/css/font-awesome.min.css';
 
 let carouselData = [
     {
@@ -40,7 +41,7 @@ export default function AppHero() {
                             <Carousel.Caption>
                                 <h3>{slide.title}</h3>
                                 <p>{slide.description}</p>
-                                <a className="btn btn-primary" href={slide.link}>Learn more</a>
+                                <a className="btn btn-primary" href={slide.link}>Learn more&nbsp;&nbsp;&nbsp;&nbsp; <i className="fa fa-chevron-right"></i></a>
                             </Carousel.Caption>
                         </Carousel.Item>
                     );
