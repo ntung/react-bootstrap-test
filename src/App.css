@@ -494,6 +494,10 @@ textarea {
   bottom: 50%;
 }
 
+.hero-block .carousel-caption .slide-image-description {
+  font-style: italic;
+}
+
 .hero-block p {
   margin: 0 0 30px;
 }
