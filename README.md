@@ -8,7 +8,7 @@ Here are the links to the guide videos.
 
 [React Bootstrap #3 - Use navbar component to work on header](https://www.youtube.com/watch?v=E0vCBOhJ24c)
 
-[React Bootstrap #3 - Use navbar component to work on header](https://www.youtube.com/watch?v=E0vCBOhJ24c)
+[React Bootstrap #4 - Use carousel component to create slideshow](https://www.youtube.com/watch?v=oVQP7GojLvc)
 
 ## Available Scripts
 
